@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj": {}
+    "C:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj": {
+    "C:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj",
+        "projectUniqueName": "C:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj",
         "projectName": "Calc-You-Later",
-        "projectPath": "c:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj",
+        "projectPath": "C:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\Calc-You-Later.csproj",
         "packagesPath": "C:\\Users\\Fyrre\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\obj\\",
+        "outputPath": "C:\\Users\\Fyrre\\Documents\\Kodehode\\Calc-You-Later\\Calc-You-Later\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fyrre\\AppData\\Roaming\\NuGet\\NuGet.Config",

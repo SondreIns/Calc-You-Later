@@ -4,8 +4,10 @@ public static class Interface
 {  
     private static float _num1;
     private static char _op = ' ';
+    private static bool _finished = false;
     public static void Write(bool first)
     {
+        if(_finished) return;
         string order = first == true ? "first" : "second";
         Console.Write("Input " + order + " number: ");
         string? input = Console.ReadLine();
@@ -19,19 +21,25 @@ public static class Interface
         {
             _num1 = num;
             Console.WriteLine();
-            _op = GetOperator();
+            GetOperator();
             Write(false);
         }
 
         else
         {
-            float result = Operate(_num1, num);
-            Console.WriteLine($"{_num1} {_op} {num} = {result}");
+            if(!_finished)
+            {
+                float result = Operate(_num1, num);
+                Console.WriteLine($"{_num1} {_op} {num} = {result}");
+                _finished = true;
+                return;
+            }
         }
     }
 
-    private static char GetOperator()
+    private static void GetOperator()
     {
+        if(_finished) return;
         Console.WriteLine(
         "1. Add\n" +
         "2. Subtract\n" +
@@ -41,25 +49,31 @@ public static class Interface
         string? input = Console.ReadLine();
         if(!Int32.TryParse(input, out int result))
         {
-            Console.WriteLine("Error - invalid operator");
+            Console.Clear();
+            Console.WriteLine($"Error - {input} is not a valid input");
             GetOperator();
+            return;
         }
         switch(result)
         {
             case 1:
-                return '+';
+                _op = '+';
+                break;
             case 2:
-                return '-';
+                _op = '-';
+                break;
             case 3:
-                return '*';
+                _op = '*';
+                break;
             case 4:
-                return '/';
+                _op = '/';
+                break;
             default:
-                Console.WriteLine("Error - invalid operator");
+                Console.Clear();
+                Console.WriteLine($"Error - {result} is not a valid input");
                 GetOperator();
                 break;
         }
-        return '?';
     }
 
     private static float Operate(float num1, float num2)
@@ -75,7 +89,7 @@ public static class Interface
             case '/':
                 return new Calculator().Divide(num1, num2);
             default:
-                return 0;
+                return 1;
         }
     }
 }
