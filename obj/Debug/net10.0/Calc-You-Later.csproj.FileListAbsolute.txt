@@ -1,0 +1,14 @@
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\bin\Debug\net10.0\Calc-You-Later.exe
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\bin\Debug\net10.0\Calc-You-Later.deps.json
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\bin\Debug\net10.0\Calc-You-Later.runtimeconfig.json
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\bin\Debug\net10.0\Calc-You-Later.dll
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\bin\Debug\net10.0\Calc-You-Later.pdb
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.AssemblyInfoInputs.cache
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.AssemblyInfo.cs
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.csproj.CoreCompileInputs.cache
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.dll
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\refint\Calc-You-Later.dll
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.pdb
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.genruntimeconfig.cache
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\ref\Calc-You-Later.dll
