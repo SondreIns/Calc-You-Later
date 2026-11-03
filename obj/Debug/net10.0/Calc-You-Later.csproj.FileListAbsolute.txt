@@ -12,3 +12,4 @@ c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.
 c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.pdb
 c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.genruntimeconfig.cache
 c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\ref\Calc-You-Later.dll
+c:\Users\Fyrre\Documents\Kodehode\Calc-You-Later\Calc-You-Later\obj\Debug\net10.0\Calc-You-Later.sourcelink.json
