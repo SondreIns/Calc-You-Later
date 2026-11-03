@@ -11,7 +11,7 @@ public class Calculator
         if (num1 == 0 || num2 == 0)
         {
             Console.WriteLine("Dividing by zero is illegal, the police are on their way");
-            return 0;
+            return -2147483648;
         }
         return num1 / num2;
     }
