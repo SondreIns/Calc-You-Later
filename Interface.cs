@@ -1,45 +1,40 @@
 namespace Calc_You_Later;
 
 public static class Interface
-{  
+{
     private static float _num1;
     private static char _op = ' ';
-    private static bool _finished = false;
     public static void Write(bool first)
     {
-        if(_finished) return;
         string order = first == true ? "first" : "second";
         Console.Write("Input " + order + " number: ");
         string? input = Console.ReadLine();
-        if(!Single.TryParse(input, out float num))
+        if (!Single.TryParse(input, out float num))
         {
             Console.Clear();
             Console.WriteLine("Error - input a valid number");
             Write(first);
+            return;
         }
-        if(first)
+        if (first)
         {
             _num1 = num;
             Console.WriteLine();
             GetOperator();
             Write(false);
+            return;
         }
 
         else
         {
-            if(!_finished)
-            {
-                float result = Operate(_num1, num);
-                Console.WriteLine($"{_num1} {_op} {num} = {result}");
-                _finished = true;
-                return;
-            }
+            float result = Operate(_num1, num);
+            Console.WriteLine($"{_num1} {_op} {num} = {result}");
+            return;
         }
     }
 
     private static void GetOperator()
     {
-        if(_finished) return;
         Console.WriteLine(
         "1. Add\n" +
         "2. Subtract\n" +
@@ -47,14 +42,14 @@ public static class Interface
         "4. Divide");
 
         string? input = Console.ReadLine();
-        if(!Int32.TryParse(input, out int result))
+        if (!Int32.TryParse(input, out int result))
         {
             Console.Clear();
             Console.WriteLine($"Error - {input} is not a valid input");
             GetOperator();
             return;
         }
-        switch(result)
+        switch (result)
         {
             case 1:
                 _op = '+';
@@ -78,7 +73,7 @@ public static class Interface
 
     private static float Operate(float num1, float num2)
     {
-        switch(_op)
+        switch (_op)
         {
             case '+':
                 return new Calculator().Add(num1, num2);

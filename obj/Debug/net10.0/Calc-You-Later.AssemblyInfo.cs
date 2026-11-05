@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Calc-You-Later")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6f012aa004ae2f897500437362e91824adb1e9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d99fc6ecd494e22c8bf13f99936a532291d05eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Calc-You-Later")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Calc-You-Later")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
